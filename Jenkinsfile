@@ -24,5 +24,5 @@ def grdl(task) {
 }
 
 def archiveUnitTestResults() {
-    junit 'build/reports/test-results/test/*.xml'
+    junit '**/build/test-results/**/TEST-*.xml'
 }
