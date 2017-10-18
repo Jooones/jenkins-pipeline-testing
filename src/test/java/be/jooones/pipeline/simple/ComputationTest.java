@@ -11,4 +11,9 @@ public class ComputationTest {
         assertThat(new Computation().plus(1, 2)).isEqualTo(3);
     }
 
+    @Test
+    public void minusInputThreeAndTwoReturnsOne() throws Exception {
+        assertThat(new Computation().minus(3, 2)).isEqualTo(1);
+    }
+
 }
